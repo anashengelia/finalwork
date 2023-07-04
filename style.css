@@ -112,3 +112,32 @@
     padding-top: 24px;
     text-align: center;
 }
+/* article ends */
+.section2{
+    max-width: inherit;
+    width: inherit;
+    margin: auto;
+    height: 922px;
+    margin: 160px 250px;
+    background-color: #402101;
+}
+.section2_h2{
+    padding-top: 96px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:  'Inter', sans-serif;
+}
+.section2_maindiv{
+    padding: 184px 365px 96px 365px;
+    display: flex;
+    justify-content: space-between;
+}
+.section2_Div1{
+    padding-top: 184px;
+    padding-left: 365px;
+    
+ 
+    
+}
