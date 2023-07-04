@@ -95,3 +95,20 @@
     font-family:  'Inter', sans-serif;
     text-align: center;
 }
+/* section1 ends */
+.article_one{
+    width: 100%;
+    height: 206px;
+    padding: 160px 490px;
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+}
+.article_text{
+    color: #B53B1B;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:  'Inter', sans-serif;
+    padding-top: 24px;
+    text-align: center;
+}
