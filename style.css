@@ -300,3 +300,58 @@
     padding: 13px 52px 14px;
 }
 /* articl3 finishes */
+.footer_main{
+    height: 240px;
+    margin-top: 160px;
+    padding: 32px 365px 55px;
+    display: flex;
+    border: 2px solid red;
+    background-color: #402101;
+}
+.footer_div1{
+    padding-right: 200px;
+}
+.footer_h{
+    padding-bottom: 16px;
+    font-size: 18px;
+    font-family: 400;
+    font-family:'Inter', sans-serif;
+    color: white;
+}
+.footer_text{
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-family: 300;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+.footer_text1{
+    padding-bottom: 43px;
+    font-size: 16px;
+    font-family: 300;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+.footer_div2{
+    display: flex;
+    gap: 27px;
+}
+.footer_logo{
+  
+}
+.footer_maindiv{
+   display: flex;
+   flex-direction: column;
+   padding-left: 200px;
+   row-gap: 29px;
+   font-size: 16px;
+   font-weight: 300;
+   font-family: 'Rubik', sans-serif;
+   color: white;
+}
+.footer_miandiv1{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+/* footer ends */
