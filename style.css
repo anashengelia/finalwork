@@ -49,9 +49,10 @@
 .section1{
   width: 100%; 
   height: 720px; 
+  
+  
 }
 .section_div{
-    
     align-items: center;
     
 }
@@ -160,5 +161,46 @@
 .photo5{
     width: 50%;
 }
- 
+ /* section2 ending */
     
+.article2{
+    width: 80%;
+    margin: auto;
+    margin-left: 240px;
+    margin-right: 240px;    
+}
+.article2_h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+    font-weight: 700;
+    font-family:'Inter', sans-serif; 
+    text-align: center;
+    
+}
+.article2_div1{
+    /* display: flex;
+    justify-content: space-between;
+    gap: 60px;  
+    position:absolute; */
+}
+.photo{
+    width: 20%;
+  
+    
+   
+}
+.inside{
+    width: 5%;
+    position: absolute;
+   padding-top: 160px;
+   padding-left: 16px;
+   padding-bottom: 16px;
+}
+.click1{
+    
+    padding-right: 24px;
+    align-items: center;
+}
+.click2{
+    padding-left: 24px;
+}
