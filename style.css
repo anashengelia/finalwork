@@ -16,16 +16,19 @@
     backdrop-filter: blur(5px);
     
 }
-.header_ul{
+.header_ul {
     display: flex;
     gap: 60px;
+   
 } 
+
 .active{
     color: #D5906E;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     text-decoration: none;
+    
 }
 .no_active{
     color: white;
@@ -355,3 +358,32 @@
     gap: 16px;
 }
 /* footer ends */
+.section_about1{
+  height: 560px;  
+}
+.section_about_image{
+    width: 100%;
+}
+
+.section_about_h3{
+    position: absolute;
+    top: 220px;
+    color: white;
+    left: 650px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:'Inter', sans-serif;
+}
+.section_about_p{
+    position: absolute;
+    width: 20%;
+    height: 56px;
+    padding: 19px 117px 18px 118px;
+    border: 2px solid #D5906E;
+    top:350px ;
+    color: white;
+    left: 650px;
+    border-radius: 5%;
+    text-align: center;
+    
+}
