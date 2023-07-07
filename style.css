@@ -4,6 +4,9 @@
     height: 100%;
     margin: auto;
 }
+::-webkit-scrollbar{
+    display: none;
+}
 .cover{
     width: 100%;
     padding: 37px 243px 37px 240px;
@@ -51,7 +54,8 @@
 /* header ending */
 .section1{
   width: 100%; 
-  height: 720px; 
+  height: 720px;
+   
   
   
 }
@@ -105,7 +109,8 @@
 .article_one{
     width: 100%;
     height: 206px;
-    padding: 160px 490px;
+    padding: 160px 300px;
+    margin: auto;
     display: flex;
     gap: 60px;
     justify-content: space-between;
@@ -122,7 +127,8 @@
 .section2{
     width: 100%;
     height: 922px;
-    margin: 96px 150px;
+    margin-top: 160px;
+    margin-bottom: 160px;
     background-color: #402101;
 }
 .section2_h{
@@ -139,11 +145,16 @@
     margin: auto;
     padding-left: 150px;
     padding-right: 150px;
+    
     display: flex;
     gap: 60px;
 }
+.section2_h{
+  padding-top: 96px;
+  padding-bottom: 40px;
+}
 .photo1{
-    width: 60%;
+    width: 80%;
 }
 .photo2{
     width: 40%;
@@ -222,7 +233,7 @@
 .section3_h2{
     height: 48px;
     position: absolute;
-    top: 2750px;
+    top: 2800px;
     left: 650px;
     font-size: 40px;
     font-weight: 700;
@@ -392,14 +403,18 @@
     
     display: flex;
     justify-content: space-between;
-   margin: 160px 490px 203px;
+   margin: 160px 490px 61px;
    gap: 59px;
+}
+.page2_div{
+    width: 490px;
+  margin: auto;
 }
 
 
 
 .form_shop{
-   /* width: 181px; */
+   
    height: 24px;
     font-size: 18px;
     font-weight: 400;
@@ -407,6 +422,7 @@
     color: #402101;
 
 }
+
 .form_for_search {
     display: flex;
     justify-content: space-between;
@@ -518,11 +534,35 @@
 .page2_figure2{
     width: 85%;
     height: 400px;
-    margin: 60px 150px 0px;
-    display: flex;
-    justify-content: space-between;
+    margin: 94px 150px 0px;
+    display: flex; 
     gap: 60px;
+    
+     
 }
+.figure_image1{
+    width: 275px;
+}
+.figure_p1{
+    padding-top: 24px;
+    padding-bottom: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #B53B1B;
+
+}
+.figure_p2{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #B53B1B;
+    padding-top: 28px;
+}
+
+
+
+
 .page2_section2{
     width: 1440px;
     display: flex;
@@ -544,9 +584,10 @@
 }
 /* article */
 .page3_Article{
-    width: 1190px;
+    width: 70%;
     height: 408px;
-    margin: 160px 365px;
+    margin: auto;
+    margin: 160px 250px;
     background-color:
     #f5cbb5;
 }
