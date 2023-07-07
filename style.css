@@ -51,6 +51,8 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
+
+
 /* header ending */
 .section1{
   width: 100%; 
@@ -296,6 +298,11 @@
     padding-top: 112px;
     margin: auto;
 
+}
+.article3_button:hover{
+    background-color: green;
+    color: black;
+    font-size: 10px;
 }
 .article_bottom_div_h{
   
