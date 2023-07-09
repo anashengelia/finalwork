@@ -4,6 +4,7 @@
     height: 100%;
     margin: auto;
 }
+
 ::-webkit-scrollbar{
     display: none;
 }
@@ -65,16 +66,18 @@
   height: 720px;
  
 }
+
+
 .input_forms{
     width:500px;
     height: 400px;
     margin-left: 240px;
     position: absolute;
     top: 208px;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 5px;
-    background-color: rgb(80, 53, 28);
-    
+    background-color:rgb(80, 53, 28);
+    opacity: 0.8;
     color: #FFFFFF;
 }
 .input_p{
@@ -83,6 +86,7 @@
     font-weight: 400;
     padding: 24px 100px 40px 30px;
     font-family: 'Inter', sans-serif;
+    color: white;
 }
 .input_div{
     display: flex;
@@ -95,7 +99,8 @@
     height: 40px;
     border: 1px solid white;
     border-radius: 7px;
-    background-color:rgb(80, 53, 28); 
+    background-color:rgb(80, 53, 28);
+    color: #FFFFFF; 
 }
 .input_div1{
 
@@ -104,9 +109,19 @@
 .input_div1_text{
     width: 440px;
     height: 96px;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius:7px ;
-    background-color:rgb(80, 53, 28);  
+    background-color:rgb(80, 53, 28); 
+}
+.input_button{
+    width: 147px;
+    height: 56px;
+    margin-top: 36px;
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color:#D5906E;  
+    color: white;
+    padding: 19px 43px 18px 42px;
 }
 
 
@@ -156,6 +171,7 @@
     font-weight: 400;
     font-family:  'Inter', sans-serif;
     text-align: center;
+   
 }
 /* section1 ends */
 .article_one{
@@ -476,8 +492,11 @@
 .page2_div{
     width: 490px;
     margin: auto;
+    
 }
-
+.inline_form{
+    display: flex;
+}
 
 
 .form_shop{
@@ -489,6 +508,8 @@
     color: #402101;
 
 }
+
+
 
 .form_for_search {
     display: flex;
@@ -502,17 +523,22 @@
     border-radius: 7px;
     
 }
+.search_div{
+    display: flex;
+    border-radius: 0px 7px 0px 7px ;
+}
 
 .search {
     width: 251px;
     border: none;
-    border-radius:  0px 7px 0px 7px;
+    border-radius:  7px 7px 7px 7px;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     background-color: #402101;
     color: #FFFFFF;
+
 }
 
 .page2_div2{
