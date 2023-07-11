@@ -20,11 +20,15 @@
     backdrop-filter: blur(5px);
     
 }
+.burger{
+    visibility: hidden;
+}
 .header_ul {
     display: flex;
     gap: 60px;
    
 } 
+
 
 .active{
     color: #D5906E;
@@ -68,61 +72,6 @@
 }
 
 
-.input_forms{
-    width:500px;
-    height: 400px;
-    margin-left: 240px;
-    position: absolute;
-    top: 208px;
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color:rgb(80, 53, 28);
-    opacity: 0.8;
-    color: #FFFFFF;
-}
-.input_p{
-    
-    font-size: 40px;
-    font-weight: 400;
-    padding: 24px 100px 40px 30px;
-    font-family: 'Inter', sans-serif;
-    color: white;
-}
-.input_div{
-    display: flex;
-    gap: 60px;
-    padding-left: 30px;
-    padding-right:30px ;
-}
-.input_name{
-    width: 190px;
-    height: 40px;
-    border: 1px solid white;
-    border-radius: 7px;
-    background-color:rgb(80, 53, 28);
-    color: #FFFFFF; 
-}
-.input_div1{
-
-    padding: 36px 30px;
-}
-.input_div1_text{
-    width: 440px;
-    height: 96px;
-    border: 1px solid white;
-    border-radius:7px ;
-    background-color:rgb(80, 53, 28); 
-}
-.input_button{
-    width: 147px;
-    height: 56px;
-    margin-top: 36px;
-    border: 1px solid white;
-    border-radius: 7px;
-    background-color:#D5906E;  
-    color: white;
-    padding: 19px 43px 18px 42px;
-}
 
 
 .section_div{
@@ -686,6 +635,62 @@
     background-color:
     #f5cbb5;
 }
+.input_forms{
+    width:500px;
+    height: 400px;
+    margin-left: 240px;
+    position: absolute;
+    top: 208px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:rgb(80, 53, 28);
+    opacity: 0.8;
+    color: #FFFFFF;
+}
+.input_p{
+    
+    font-size: 40px;
+    font-weight: 400;
+    padding: 24px 100px 40px 30px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.input_div{
+    display: flex;
+    gap: 60px;
+    padding-left: 30px;
+    padding-right:30px ;
+}
+.input_name{
+    width: 190px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color:rgb(80, 53, 28);
+    color: #FFFFFF; 
+}
+.input_div1{
+
+    padding: 36px 30px;
+}
+.input_div1_text{
+    width: 440px;
+    height: 96px;
+    border: 1px solid white;
+    border-radius:7px ;
+    background-color:rgb(80, 53, 28); 
+}
+.input_button{
+    width: 147px;
+    height: 56px;
+    margin-top: 36px;
+    border: 1px solid white;
+    border-radius: 7px;
+    background-color:#D5906E;  
+    color: white;
+    padding: 19px 43px 18px 42px;
+}
+
 .pages3_h2{
     text-align: center;
     font-size: 40px;
